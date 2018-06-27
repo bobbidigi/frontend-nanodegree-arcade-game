@@ -1,6 +1,39 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
+frontend-nanodegree-arcade-game
+--audio
+---- success.ogg
+---- win.ogg
+--CSS
+---- style.css 
+--imgages
+---- a whole bunch of images
+--js
+---- app.js
+---- engine.js
+---- resources.js
+--index.html
+--README.md
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+
+## User Instructions
+
+### Run game
+    Run Game by navigating to the index.html file and open in the browser of your choice.
+    The index.html file is in the root directory.
+
+## Play your arcade game.
+    Begin the game by selecting the player your player using the arrow keys, press up when hoovered over the player you want. Use the arrow keys to navigate your player to the gem without getting hit by the bugs. Collect as many gems as you can.
+
+## Contributing
+    At this time there are no established rules for contributions.
+    Feel free to fork the repo and submit a pull request. 
+
+## Additional credits
+    materialize.css was used for the modal and toasts.
+    https://materializecss.com
+
+    FontAwesome was used for atleast one icon. 
+    https://fontawesome.com/

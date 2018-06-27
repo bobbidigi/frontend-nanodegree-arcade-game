@@ -1,3 +1,58 @@
 body {
     text-align: center;
 }
+
+#confirmationModal {
+    border-radius: 5px;
+    width: 80vw;
+}
+
+.modal-header i {
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+.modal-content i {
+    color: #CCC;
+    font-size: 3.3em;
+}
+
+.modal-content.message {
+    color: #999;
+    font-size: 14px;
+}
+
+.modal-content.share {
+    color: #666;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 500px) {
+    #confirmationModal {
+        border-radius: 6px;
+        width: 50vw;
+    }
+    .modal-header i {
+        font-size: 2em;
+        margin-right: 5px;
+    }
+    .modal-content i {
+        color: #CCC;
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #confirmationModal {
+        border-radius: 8px;
+        width: 33vw;
+    }
+    .modal-header i {
+        font-size: 2.5em;
+        margin-right: 5px;
+    }
+    .modal-content i {
+        color: #CCC;
+        font-size: 4.5em;
+    }
+}
