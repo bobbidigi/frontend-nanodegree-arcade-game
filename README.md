@@ -8,7 +8,7 @@ frontend-nanodegree-arcade-game
 ---- win.ogg
 --CSS
 ---- style.css 
---imgages
+--images
 ---- a whole bunch of images
 --js
 ---- app.js

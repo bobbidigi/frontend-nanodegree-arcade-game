@@ -275,9 +275,13 @@ facebookShare.onclick = function(e) {
     e.preventDefault();
     var facebookWindow = window.open('https://www.facebook.com/sharer/sharer.php?u=' + document.URL, 'facebook-popup', 'height=350,width=600');
     if (facebookWindow.focus) { facebookWindow.focus(); }
+    reset();
     return false;
 }
 
+function reset() {
+    location.reload();
+}
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() and Selector.handleInput() method.
