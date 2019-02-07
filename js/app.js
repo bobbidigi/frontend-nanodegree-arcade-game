@@ -107,9 +107,15 @@ Player.prototype.render = function() {
 Player.prototype.handleInput = function(keyup) {
     if (selected === true) {
         if (keyup == 'left' && this.x > 0) {
+            if (this.player === 'images/blue_wizard_right.png') {
+                this.player = 'images/blue_wizard_left.png';
+            }
             this.x -= 102;
         }
         if (keyup == 'right' && this.x < 405) {
+            if(this.player === 'images/blue_wizard_left.png'){
+                this.player = 'images/blue_wizard_right.png';
+            }
             this.x += 102;
         }
         if (keyup == 'up' && this.y > 0) {
@@ -187,7 +193,7 @@ enemyLocation.forEach(function(locationY) {
 // display all player options
 let allPlayers = [];
 var playerLocation = [02, 102, 202, 302, 402];
-var playerTypes = ['images/char-cat-girl.png', 'images/char-boy.png', 'images/char-horn-girl.png',
+var playerTypes = ['images/char-cat-girl.png', 'images/blue_wizard_left.png', 'images/char-horn-girl.png',
     'images/char-pink-girl.png', 'images/char-princess-girl.png'
 ];
 //loop through locations and playerTypes and push player to allPlayers array
